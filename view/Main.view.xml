@@ -1,0 +1,17 @@
+<core:View
+		xmlns:core="sap.ui.core"
+		xmlns:f="sap.ui.layout.form"
+		xmlns:mvc="sap.ui.core.mvc"
+		xmlns="sap.m"
+		controllerName="sap.training.exc13.localization.view.Main"
+		xmlns:html="http://www.w3.org/1999/xhtml">
+	
+	<f:SimpleForm>
+		<f:content>
+			<Label text="{i18n>flightRatingLabel}"/>
+			<RatingIndicator change="onRatingChange"/>
+			<Text id="idText"/>
+		</f:content>
+	</f:SimpleForm>
+
+</core:View>
